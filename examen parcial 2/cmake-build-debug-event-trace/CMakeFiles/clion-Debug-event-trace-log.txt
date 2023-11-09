@@ -1,0 +1,21 @@
+C:\Users\xocam\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/xocam/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe "-DCMAKE_TOOLCHAIN_FILE=C:\Users\xocam\.vcpkg-clion\vcpkg (1)\scripts\buildsystems\vcpkg.cmake" --profiling-format=google-trace --profiling-output=CMakeFiles\clion-event-trace.json -G Ninja -S "D:\semestre5\Sim_fisicas\examen parcial 2" -B "D:\semestre5\Sim_fisicas\examen parcial 2\cmake-build-debug-event-trace"
+CMake Error at C:/Users/xocam/.vcpkg-clion/vcpkg (1)/scripts/buildsystems/vcpkg.cmake:859 (_find_package):
+  By not providing "Findbox2d.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "box2d", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "box2d" with any of
+  the following names:
+
+    box2dConfig.cmake
+    box2d-config.cmake
+
+  Add the installation prefix of "box2d" to CMAKE_PREFIX_PATH or set
+  "box2d_DIR" to a directory containing one of the above files.  If "box2d"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
